@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc8e282-2eda-4339-a894-674ee8a872b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/GameBoard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.scss" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667015982962</updated>
-      <workItem from="1667015984262" duration="12701000" />
+      <workItem from="1667015984262" duration="14145000" />
     </task>
     <task id="LOCAL-00001" summary="created project">
       <created>1667136528456</created>
@@ -76,14 +70,25 @@
       <option name="project" value="LOCAL" />
       <updated>1667136528456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added board">
+      <created>1667140406851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667140406851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="created project" />
-    <option name="LAST_COMMIT_MESSAGE" value="created project" />
+    <MESSAGE value="added board" />
+    <option name="LAST_COMMIT_MESSAGE" value="added board" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

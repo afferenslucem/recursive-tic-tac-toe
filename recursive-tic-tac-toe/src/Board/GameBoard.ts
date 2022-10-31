@@ -62,7 +62,7 @@ export class GameBoard {
             const nextBoard = coords[1];
 
             this.subboards.forEach((board, index) => {
-                if (index != nextBoard) {
+                if (index !== nextBoard) {
                     board.isActive = false;
                 } else {
                     board.isActive = true;
@@ -72,6 +72,46 @@ export class GameBoard {
             this.subboards[coords[0]].stepInto(player, coords.slice(1));
         } else {
             this.subboards[coords[0]]._picked ??= player
+        }
+
+        this.checkWin();
+    }
+
+    private checkWin(): void {
+        if (this._picked) return;
+
+        const sb = this.subboards;
+
+        for (let i = 0; i < 3; i++) {
+            const first = sb[0 + i]._picked;
+            const second = sb[3 + i]._picked;
+            const third = sb[6 + i]._picked;
+
+            if (first === second && second === third && first) {
+                this._picked = first;
+                return;
+            }
+        }
+
+        for (let i = 0; i < 3; i++) {
+            const first = sb[0 + i * 3]._picked;
+            const second = sb[1 + i * 3]._picked;
+            const third = sb[2 + i * 3]._picked;
+
+            if (first === second && second === third && first) {
+                this._picked = first;
+                return;
+            }
+        }
+
+        if (sb[0]._picked === sb[4]._picked && sb[4]._picked === sb[8]._picked && sb[0]._picked) {
+            this._picked = sb[0]._picked;
+            return;
+        }
+
+        if (sb[2]._picked === sb[4]._picked && sb[4]._picked === sb[6]._picked && sb[2]._picked) {
+            this._picked = sb[2]._picked;
+            return;
         }
     }
 }

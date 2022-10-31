@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/Board.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/GameBoard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Board/GameBoard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/Game/Game.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursive-tic-tac-toe/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/recursive-tic-tac-toe/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667015982962</updated>
       <workItem from="1667015984262" duration="14236000" />
-      <workItem from="1667202870929" duration="3505000" />
+      <workItem from="1667202870929" duration="8239000" />
     </task>
     <task id="LOCAL-00001" summary="created project">
       <created>1667136528456</created>
@@ -85,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667200432538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added steps">
+      <created>1667206562438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667206562438</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +103,8 @@
     <MESSAGE value="created project" />
     <MESSAGE value="added board" />
     <MESSAGE value="fixed layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed layout" />
+    <MESSAGE value="added steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="added steps" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

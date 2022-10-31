@@ -1,4 +1,6 @@
 .game-board {
+  position: relative;
+
   width: min-content;
 
   display: grid;
@@ -36,8 +38,56 @@
     user-select: none;
 
     &:hover {
-      background-color: white;
+      background-color: #FFFFFFA0;
       cursor: pointer;
     }
   }
+}
+
+.game-board--picked {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: -1000;
+
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+
+  opacity: 0.3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.game-board--order-1 {
+    top: -0.5rem;
+    font-size: 7rem;
+  }
+
+  &.game-board--order-2 {
+    top: -2rem;
+    font-size: 27rem;
+  }
+}
+
+.game-board[picked=X]:after {
+  @extend .game-board--picked;
+
+  content: 'X';
+}
+
+.game-board[picked=O]:after {
+  @extend .game-board--picked;
+
+  content: 'O';
+}
+
+[picked=X] {
+  color: red;
+}
+
+[picked=O] {
+  color: blue;
 }
